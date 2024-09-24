@@ -57,7 +57,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-3">
-          <p>{price}</p>
+          <p className="font-semibold">{price}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

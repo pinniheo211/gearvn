@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import cris from "../assets/cris.jpeg";
-import Mixi from "../assets/mixi.webp";
+import Mixi from "../assets/Mixi.webp";
 import Viruss from "../assets/Viruss.jpg";
 const Review = () => {
   return (

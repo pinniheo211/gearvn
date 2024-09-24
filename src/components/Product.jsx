@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  price,
   link,
 }) => {
   return (
@@ -54,6 +55,9 @@ const ProjectCard = ({
         >
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        </div>
+        <div className="mt-3">
+          <p>{price}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

@@ -132,9 +132,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Laptop ASUS ROG Zephyrus G16",
+    name: "Máy tính xách tay ASUS ROG Zephyrus G16",
     description:
-      "Powered by an Intel Core i9 processor and an NVIDIA RTX 4080 GPU, this laptop can handle anything you throw at it. Whether you’re gaming on AAA titles or doing complex graphic work, the Zephyrus G16 delivers smooth and flawless performance. The 16-inch QHD display with a 165Hz refresh rate brings ultra-crisp visuals and fast response times, immersing you fully in every gaming experience.",
+      "Được trang bị bộ xử lý Intel Core i9 và GPU NVIDIA RTX 4080, máy tính xách tay này có thể xử lý mọi tác vụ bạn giao cho nó. Cho dù bạn đang chơi game trên các tựa game AAA hay làm công việc đồ họa phức tạp, Zephyrus G16 đều mang đến hiệu suất mượt mà và hoàn hảo. Màn hình QHD 16 inch với tốc độ làm mới 165Hz mang đến hình ảnh cực kỳ sắc nét và thời gian phản hồi nhanh, giúp bạn đắm chìm hoàn toàn vào mọi trải nghiệm chơi game.",
     price: "29.000.000 VND",
     tags: [
       {

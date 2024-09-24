@@ -9,7 +9,9 @@ import {
   StarsCanvas,
   Tech,
   Works,
+  Review,
   Detail,
+  Footer,
   Product,
   User,
 } from "../components";
@@ -43,11 +45,14 @@ const HomePage = () => {
       <Works />
       <Detail />
       <User />
+      <Review />
+
       {/* <Feedbacks /> */}
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />
       </div>
+      <Footer />
     </div>
   );
 };

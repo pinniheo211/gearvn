@@ -77,39 +77,39 @@ const User = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>User Experience</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Trải nghiệm người dùng</h2>
       </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Sound</h3>
+          <h3 className="text-2xl font-bold">Âm thanh</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Dolby Atmos sound system for immersive audio
+            Hệ thống âm thanh Dolby Atmos cho âm thanh sống động
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Keyboard</h3>
+          <h3 className="text-2xl font-bold">Bàn phím</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            RGB backlit keyboard with excellent tactile feedback, designed for
-            gamers.
+            Bàn phím có đèn nền RGB với phản hồi xúc giác tuyệt vời, được thiết
+            kế dành cho game thủ.
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Connectivity</h3>
+          <h3 className="text-2xl font-bold">Kết nối</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Full suite of ports, including USB Type-C, Thunderbolt 4, HDMI 2.1,
-            and RJ45 LAN.
+            Bộ cổng đầy đủ, bao gồm USB Type-C, Thunderbolt 4, HDMI 2.1 và RJ45
+            LAN.
           </motion.p>
         </div>
       </div>

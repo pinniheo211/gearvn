@@ -77,7 +77,9 @@ const Detail = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Detailed Specifications</h2>
+        <h2 className={`${styles.sectionHeadText}`}>
+          Thông số kỹ thuật chi tiết
+        </h2>
       </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         <div className="w-full mt-10">
@@ -111,7 +113,7 @@ const Detail = () => {
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Storage</h3>
+          <h3 className="text-2xl font-bold">Lưu trữ</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
@@ -121,7 +123,7 @@ const Detail = () => {
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Operating System</h3>
+          <h3 className="text-2xl font-bold">Hệ điều hành</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
@@ -131,13 +133,13 @@ const Detail = () => {
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Battery</h3>
+          <h3 className="text-2xl font-bold">Pin</h3>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            90Wh, fast-charging, long battery life
+            90Wh, Sạc nhanh
           </motion.p>
         </div>
       </div>

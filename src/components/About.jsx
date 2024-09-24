@@ -58,10 +58,10 @@ const About = () => {
     <>
       <div className="flex items-center gap-10">
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Introduction</p>
-          <h2 className={styles.sectionHeadText}>About Me.</h2>
+          <p className={styles.sectionSubText}>Về Chúng tôi</p>
+          <h2 className={`text-white font-bold text-5xl`}>Phạm Quốc Hưng</h2>
         </motion.div>
-        <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
+        <div className="w-[230px] h-[210px] rounded-full overflow-hidden">
           <img src={hung} alt="hung" className="w-full h-full" />
         </div>
       </div>
@@ -85,14 +85,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Today, I’m excited to introduce you to a gaming laptop that I’m sure
-        will impress you from the very first look – the{" "}
-        <span className="text-white font-semibold">
-          ROG Zephyrus G16 (2024) GU605
-        </span>
-        . It’s the perfect blend of{" "}
-        <span className="text-white font-semibold">powerful performance</span>{" "}
-        and <span className="text-white font-semibold">sleek design</span>.
+        Bạn đã bao giờ cảm thấy laptop của mình quá chậm hoặc quá nóng khi chơi
+        game? Đừng lo lắng, ROG Zephyrus G16 (2024) GU 605, chiếc laptop gaming
+        đỉnh cao đến từ ASUS, sẽ là giải pháp hoàn hảo cho bạn! ROG Zephyrus G16
+        được ra đời với sứ mệnh mang đến trải nghiệm gaming mượt mà, mạnh mẽ, và
+        không gián đoạn. Với cấu hình mạnh mẽ từ bộ vi xử lý Intel thế hệ mới
+        nhất, cùng với card đồ họa NVIDIA RTX hàng đầu, Zephyrus G16 giúp bạn
+        chinh phục mọi tựa game với hiệu suất tuyệt đỉnh. Thiết kế siêu mỏng,
+        nhẹ và hệ thống tản nhiệt tiên tiến giúp bạn mang theo máy mọi nơi và
+        sẵn sàng chiến đấu bất kỳ lúc nào. Hãy để ROG Zephyrus G16 đồng hành
+        cùng bạn trên mọi đấu trường gaming!
       </motion.p>
       {/* <div className="mt-5 flex cursor-pointer" onClick={onButtonClick}>
         Resume{" "}

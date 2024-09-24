@@ -75,57 +75,56 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Key Features</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Tính Năng</h2>
       </motion.div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Powerful Performance</h3>
+          <h3 className="text-2xl font-bold">Hiệu Suất Mạnh Mẽ</h3>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Equipped with Intel 14th Gen or AMD Ryzen 7000 series processors
-            (specify the exact model).
+            Được trang bị bộ xử lý Intel thế hệ thứ 14 hoặc AMD Ryzen 7000
+            series (hãy chỉ định chính xác model).
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">NVIDIA GeForce RTX 4000 GPU</h3>
+          <h3 className="text-2xl font-bold">GPU NVIDIA GeForce RTX 4000</h3>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Delivers top-tier graphics performance for smooth gaming in AAA
-            titles.
+            Mang lại hiệu suất đồ họa hàng đầu để chơi game mượt mà trong các
+            tựa game AAA.
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Display</h3>
+          <h3 className="text-2xl font-bold">Màn hình</h3>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            16-inch QHD, 165Hz refresh rate, Dolby Vision, Adaptive-Sync,
-            ultra-thin bezels.
+            QHD 16 inch, tốc độ làm mới 165Hz, Dolby Vision, Adaptive-Sync, viền
+            siêu mỏng.
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Slim and Lightweight Design</h3>
+          <h3 className="text-2xl font-bold">Thiết kế mỏng và nhẹ</h3>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Portable and durable with under 20mm thickness and under 2kg weight.
+            Di động và bền bỉ với độ dày dưới 20mm và trọng lượng dưới 2kg.
           </motion.p>
         </div>
         <div className="w-full mt-10">
-          <h3 className="text-2xl font-bold">Efficient Cooling</h3>
+          <h3 className="text-2xl font-bold">Làm mát hiệu quả</h3>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            ROG Intelligent Cooling technology, keeping the laptop cool during
-            intense gaming sessions.
+            Công nghệ làm mát thông minh ROG, giữ cho máy tính xách tay
           </motion.p>
         </div>
       </div>

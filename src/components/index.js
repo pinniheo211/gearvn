@@ -16,6 +16,8 @@ import CanvasLoader from "./Loader";
 import Detail from "./Detail";
 import User from "./User";
 import Product from "./Product";
+import Review from "./Review";
+import Footer from "./Footer";
 export {
   Hero,
   Navbar,
@@ -27,6 +29,8 @@ export {
   User,
   Feedbacks,
   Contact,
+  Review,
+  Footer,
   Product,
   CanvasLoader,
   EarthCanvas,

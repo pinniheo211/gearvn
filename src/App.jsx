@@ -10,14 +10,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/chinh-sach-doi-tra" element={<PolicyReturn />} />
-        <Route path="/chinh-sach-van-chuyen" element={<PolicyTransfer />} />
-        <Route path="/chinh-sach-bao-mat" element={<PolicySecurity />} />
-        <Route
-          path="/chinh-sach-khach-hang-than-thien"
-          element={<PolicySupport />}
-        />
-        <Route path="/chinh-sach-thanh-toan" element={<PolicyBuy />} />
+        <Route path="/chinh-sach-tra" element={<PolicyReturn />} />
+        <Route path="/chinh-sach-chuyen" element={<PolicyTransfer />} />
+        <Route path="/chinh-sach-baomat" element={<PolicySecurity />} />
+        <Route path="/chinh-sach-khachhang" element={<PolicySupport />} />
+        <Route path="/chinh-sach-mua" element={<PolicyBuy />} />
       </Routes>
     </BrowserRouter>
   );

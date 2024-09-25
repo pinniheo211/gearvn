@@ -35,7 +35,11 @@ const HomePage = () => {
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         {/* <Hero /> */}
-        <img src={BannerLap} alt="" className="w-full h-auto" />
+        <img
+          src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200_webp/72496e206931949.66d556db763da.gif"
+          alt=""
+          className="w-full h-auto"
+        />
       </div>
       <About />
 

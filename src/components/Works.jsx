@@ -74,7 +74,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} id="feature">
         <h2 className={`${styles.sectionHeadText}`}>Tính Năng</h2>
       </motion.div>
 

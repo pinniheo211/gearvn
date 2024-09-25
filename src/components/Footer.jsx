@@ -17,33 +17,39 @@ const Footer = () => {
 
             <div className="px-4 my-4 w-full sm:w-auto">
               <div>
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">
-                  Công Ty
+                <h2 className="inline-block text-lg pb-4 mb-4 border-b-4 border-blue-600">
+                  Hỗ Trợ Khách Hàng
                 </h2>
               </div>
               <ul className="leading-8">
                 <li>
-                  <a href="/chinh-sach-doi-tra" className="hover:text-blue-400">
+                  <a
+                    href="/chinh-sach-doi-tra"
+                    className="hover:text-blue-400 text-sm"
+                  >
                     CHÍNH SÁCH ĐỔI/TRẢ HÀNG
                   </a>
                 </li>
                 <li>
                   <a
                     href="/chinh-sach-van-chuyen"
-                    className="hover:text-blue-400"
+                    className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH VẬN CHUYỂN
                   </a>
                 </li>
                 <li>
-                  <a href="/chinh-sach-bao-mat" className="hover:text-blue-400">
+                  <a
+                    href="/chinh-sach-bao-mat"
+                    className="hover:text-blue-400 text-sm"
+                  >
                     CHÍNH SÁCH BẢO MẬT
                   </a>
                 </li>
                 <li>
                   <a
                     href="/chinh-sach-khach-hang-than-thien"
-                    className="hover:text-blue-400"
+                    className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH KHÁCH HÀNG THÂN THIẾT
                   </a>
@@ -51,7 +57,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/chinh-sach-thanh-toan"
-                    className="hover:text-blue-400"
+                    className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH THANH TOÁN
                   </a>
@@ -61,8 +67,8 @@ const Footer = () => {
 
             <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
               <div>
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">
-                  Connect With Us
+                <h2 className="inline-block text-lg pb-4 mb-4 border-b-4 border-blue-600">
+                  Kết nối với chúng tôi
                 </h2>
               </div>
               <div>

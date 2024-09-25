@@ -19,15 +19,19 @@ import lab1 from "../assets/lap1.png";
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Giới thiệu",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Sản phẩm",
+  },
+  {
+    id: "feature",
+    title: "Tính năng",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Liên hệ",
   },
 ];
 

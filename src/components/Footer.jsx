@@ -1,5 +1,6 @@
 import { SectionWrapper } from "../hoc";
 import bocongthuong from "../assets/bocongthuong.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
@@ -23,44 +24,44 @@ const Footer = () => {
               </div>
               <ul className="leading-8">
                 <li>
-                  <a
-                    href="/chinh-sach-doi-tra"
+                  <Link
+                    to="/chinh-sach-tra"
                     className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH ĐỔI/TRẢ HÀNG
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/chinh-sach-van-chuyen"
+                  <Link
+                    to="/chinh-sach-chuyen"
                     className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH VẬN CHUYỂN
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/chinh-sach-bao-mat"
+                  <Link
+                    to="/chinh-sach-baomat"
                     className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH BẢO MẬT
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/chinh-sach-khach-hang-than-thien"
+                  <Link
+                    to="/chinh-sach-khachhang"
                     className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH KHÁCH HÀNG THÂN THIẾT
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/chinh-sach-thanh-toan"
+                  <Link
+                    to="/chinh-sach-mua"
                     className="hover:text-blue-400 text-sm"
                   >
                     CHÍNH SÁCH THANH TOÁN
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
